@@ -9,14 +9,18 @@ import "./Home.css";
       <div >
         <Grid>
             <Jumbotron>
-                <h2>Welcome, Iheanyi</h2>
-                <p>I am using react bootstrap</p>
+                <h1>Welcome, Iheanyi to the Home Page</h1>
+                <p>For the sake of learning</p>
             </Jumbotron>
             <Link to="/about">
             <Button bsStyle="primary">About</Button>
+            </Link>
+            <Link to="/news">
+            <Button bsStyle="primary">News</Button>
             </Link>
         </Grid>
       </div>
     );
   }
 }
+
